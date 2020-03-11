@@ -1,0 +1,12 @@
+doctype
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        title
+    body
+        h1 These is movies list
+        ul 
+            each movie in movies  
+                li
+                    p=movie.name
+                    p=`by ${movie.direct.name}`  
